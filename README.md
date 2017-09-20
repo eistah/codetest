@@ -38,3 +38,7 @@ ln -s `pwd`/hooks/pre-commit .git/hooks
 ```bash
 go get -v ./... && go build -v
 ```
+
+## Frontend docs
+[frontend documentation](frontend/readme.md)
+

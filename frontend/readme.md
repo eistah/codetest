@@ -17,6 +17,7 @@ cp .env.example .env
 
 # Run
 ```
+php artisan key:generate
 php artisan serve
 ```
 

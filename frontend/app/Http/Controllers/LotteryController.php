@@ -22,7 +22,9 @@ class LotteryController extends Controller
     }
 
     /**
+     * List lotteries
      *
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function index()
     {
@@ -31,6 +33,12 @@ class LotteryController extends Controller
         ]);
     }
 
+    /**
+     * Show single lottery
+     *
+     * @param string $lotteryKey
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function show($lotteryKey)
     {
         return view('lottery', [
